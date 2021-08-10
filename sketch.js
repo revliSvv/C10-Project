@@ -13,9 +13,9 @@ function setup(){
   sea.scale = 0.5;
   sea.addImage('sea', seaImage);
 
-  ship = createSprite(200, 200);
+  ship = createSprite(100, 250);
   ship.addAnimation('ship', shipAnimation);
-  ship.scale = 0.5;
+  ship.scale = 0.25;
 }
   
 
